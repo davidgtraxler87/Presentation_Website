@@ -4,7 +4,7 @@
     --page-3-color: #008080;
     --page-4-color: #6a5acd;
     --page-5-color: #334b5f;
-    --animate-speed: 1s;
+    --animate-speed: 2s;
 }
 
 body {
@@ -66,3 +66,26 @@ body {
     color: #333333;
 }
 
+/* Page Animation */
+#page-1 h1 {
+    transform: translateY(-1200px);
+    animation: heading var(--animate-speed) forwards ease-in;
+}
+
+#page-1 p {
+    transform: translateX(-1800px);
+    animation: text var(--animate-speed) forwards ease-in 1.5s;
+}
+
+/* Keyframes */
+@keyframes heading {
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes text {
+    to {
+        transform: translateX(0);
+    }
+}
