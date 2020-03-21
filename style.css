@@ -1,9 +1,4 @@
 :root {
-    --page-1-color: #4682b4;
-    --page-2-color: #d2b48c;
-    --page-3-color: #008080;
-    --page-4-color: #6a5acd;
-    --page-5-color: #334b5f;
     --animate-speed: 2s;
 }
 
@@ -16,12 +11,28 @@ body {
     overflow: hidden; 
 }
 
-/* Page Colors */
-#page-1 {background: var(--page-1-color)}
-#page-2 {background: var(--page-2-color)}
-#page-3 {background: var(--page-3-color)}
-#page-4 {background: var(--page-4-color)}
-#page-5 {background: var(--page-5-color)}
+/* Page Backgrounds */
+
+
+#page-1 {
+    background: url(../images/page-1.jpg) no-repeat  center center/cover;
+}
+
+#page-2 {
+    background: url(../images/page-2.jpg) no-repeat  center center/cover;
+}
+
+#page-3 {
+    background: url(../images/page-3.jpg) no-repeat  center center/cover;
+}
+
+#page-4 {
+    background: url(../images/page-4.jpg) no-repeat  center center/cover;
+}
+
+#page-5 {
+    background: url(../images/page-5.jpg) no-repeat  center center/cover;
+}
 
 .page {
     display: flex;
